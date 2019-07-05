@@ -17,7 +17,7 @@ cabal-version:       >=1.10
 
 executable project-euler-eta
   main-is:             Main.hs
-  other-modules:       Problem1, Problem2, Problem3, Problem4, Problem5
+  other-modules:       Problem1, Problem2, Problem3, Problem4, Problem5, Problem6
   -- other-extensions:    
   build-depends:       base >=4.11 && <4.12, timeit
   hs-source-dirs:      src

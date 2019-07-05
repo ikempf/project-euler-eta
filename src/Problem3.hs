@@ -7,7 +7,7 @@ import Data.List
 -- Seems to also works without checking prime
 
 prob3 :: Integer
-prob3 = maximum (primeFactors 12)
+prob3 = maximum (primeFactors 600851475143)
 
 primeFactors :: Integer -> [Integer]
 primeFactors n =

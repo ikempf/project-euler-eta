@@ -7,6 +7,7 @@ import Problem2
 import Problem3
 import Problem4
 import Problem5
+import Problem6
 
 main :: IO ()
 main =
@@ -16,4 +17,5 @@ main =
     timeIt(putStrLn ("Problem 3 : " ++ show (prob3))) >>
     timeIt(putStrLn ("Problem 4 : " ++ show (prob4))) >>
     timeIt(putStrLn ("Problem 5 : " ++ show (prob5))) >>
+    timeIt(putStrLn ("Problem 6 : " ++ show (prob6))) >>
     putStrLn "------------------"
